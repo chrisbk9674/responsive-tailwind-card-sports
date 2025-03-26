@@ -2,7 +2,7 @@
 
 <p align="center">
   <!-- <img src="design/desktop-design-close-up.jpg" alt="Blog Preview Card" width="50%"> -->
-  <img src="images/tailwind-responsive-ui-card.jpg" alt="Blog Preview Card" width="50%">
+  <img src="images/thumbnail.jpg" alt="Blog Preview Card" width="50%">
 </p>
 
 🔗 **Live Demo:** ([View the Project](https://chrisbk9674.github.io/tailwind-responsive-ui-card/) )
