@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>
+      Responsive Tailwind UI Design: StrongBody Now Sports Supplements
+    </title>
+
+    <style>
+      * {
+        font-family: "Inter", sans-serif;
+        /* outline: 1px solid red; */
+      }
+
+      body {
+        background: #16181c; /* Fallback color in case the image doesn't load */
+        position: relative;
+      }
+
+      body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("images/sunset-bg-42-opacity.jpg") no-repeat center
+          center/cover;
+        background-size: cover;
+        filter: blur(12px); /* Only the background image gets blurred */
+        z-index: -1; /* Keeps the background behind everything else */
+      }
+      button.follow:hover span {
+        color: white !important;
+      }
+      /* button {
+        cursor: pointer;
+      }
+
+      button.follow:hover {
+        background: #1473e6;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      button.follow:hover span {
+        color: #fff; 
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex items-center justify-center min-h-screen">
+      <!-- Card -->
+      <div
+        class="mx-auto relative flex flex-col min-w-[375px] md:min-w-[700px] m-3 shadow-xl rounded-2xl bg-white pb-7 space-y-4 md:text-left text-center md:space-x-1 md:px-0 md:pb-[0px] overflow-hidden md:min-h-[621px]"
+      >
+        <div
+          class="banner h-[174px] pt-[40px] flex flex-col bg-[#696969] md:w-full bg-[url('images/bg-image002.png')] h-64 w-full bg-cover bg-center"
+        >
+          <h1
+            class="text-white text-[20px] font-bold md:absolute top-[45px] left-[154px] right-[]"
+          >
+            StrongBody Now
+          </h1>
+          <h4
+            class="text-white font-light text-sm text-[14px] md:absolute top-[75px] left-[154px] right-[]"
+          >
+            Sports Supplements
+          </h4>
+          <div
+            class="md:absolute top-[104px] left-[154px] right-[] flex items-center justify-center py-2 px-8 space-x-2 md:py-0 md:px-0"
+          >
+            <img src="images/location4.svg" alt="" class="w-3" />
+            <span class="text-white text-[10px]">San Diego, CA</span>
+          </div>
+
+          <div class="w-full md:absolute top-[32px] left-[32px] right-[]">
+            <img
+              class="w-24 mx-auto md:m-0 md:w-[104px]"
+              src="images/circle-logo1.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div
+          class="flex md:space-y-0 md:space-x-4 md:flex-row items-center justify-center space-x-36 md:absolute top-[235px] left-[32px] right-[]"
+        >
+          <button
+            class="group relative z-10 flex items-center justify-center border-2 border-[#1473E6] py-1 px-4 rounded-md space-x-2 text-[#105BB7] font-semibold transition duration-300 hover:bg-[#1473E6] hover:text-white focus:bg-[#105BB7]"
+          >
+            <svg
+              class="w-5 h-5 transition duration-300 stroke-[#105BB7] group-hover:stroke-white"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3 10C3 6.134 7.03 3 12 3s9 3.134 9 7-4.03 7-9 7a10.56 10.56 0 0 1-3-.43L5 19v-3.63C3.77 14.02 3 12.11 3 10Z"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="text-[12px] transition duration-300">Message</span>
+          </button>
+
+          <button
+            class="relative z-10 flex items-center justify-center border-2 border-[#1473E6] py-1 px-4 rounded-md space-x-2 text-[#105BB7] font-semibold transition duration-300 hover:bg-[#1473E6] hover:text-white focus:bg-[#105BB7]"
+          >
+            <!-- <img src="images/plus-blue.svg" alt="" class="w-3" /> -->
+            <svg
+              class="w-4 h-4 transition-colors duration-300 group-hover:fill-white"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path
+                d="M12 5v14M5 12h14"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            <span class="text-[12px]">Follow</span>
+          </button>
+        </div>
+
+        <div
+          class="md:absolute top-[175px] left-[32px] right-[] data flex items-center justify-center space-x-10 pb-20 text-center"
+        >
+          <div class="followers flex flex-col text-[#2e2e2e] text-center">
+            <p class="font-bold text-[20px]">838.9K</p>
+            <p class="font-normal text-[14px] -m-1">Followers</p>
+          </div>
+          <div class="followers flex flex-col text-[#2e2e2e] text-center">
+            <p class="font-bold text-[20px]">4,948</p>
+            <p class="font-normal text-[14px] -m-1">Following</p>
+          </div>
+          <div class="followers flex flex-col text-[#2e2e2e]">
+            <p class="font-bold text-[20px]">722.9K</p>
+            <p class="font-normal text-[14px] -m-1">Likes</p>
+          </div>
+        </div>
+        <div>
+          <p
+            class="md:absolute top-[319px] left-[32px] right-[] hidden md:block text-[16px] max-w-[540px]"
+          >
+            StrongBody Now is your trusted companion for achieving peak athletic
+            performance. Specializing in cutting-edge sports supplements, we are
+            committed to empowering athletes and fitness enthusiasts with
+            products backed by science. From protein powders to recovery aids,
+            StrongBody Now offers clean, high-quality solutions to fuel your
+            workouts, enhance recovery, and support your fitness goals. Build
+            your strength with StrongBody Now.
+          </p>
+        </div>
+        <div
+          class="mx-8 mt-20 md:absolute top-[510px] left-[32px] right-[] md:mt-0"
+        >
+          <button
+            class="w-full bg-[#1473E6] text-white font-bold text-[18px] border border-black-400 px-8 py-4 rounded-xl hover:bg-[#105BB7] hover"
+          >
+            Shop product line
+          </button>
+        </div>
+      </div>
+      <!--End Card -->
+    </div>
+    <!-- End Global Container -->
+  </body>
+</html>
