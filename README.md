@@ -5,7 +5,7 @@
   <img src="images/thumbnail2.jpg" alt="Blog Preview Card" width="50%">
 </p>
 
-🔗 **Live Demo:** ([View the Project](https://chrisbk9674.github.io/tailwind-responsive-ui-card/) )
+🔗 **Live Demo:** ([View the Project](https://chrisbk9674.github.io/responsive-tailwind-card-sports/) )
 
 This project showcases a **Responsive UI Design** for StrongBody Now Sports Supplements, built using **Tailwind** CSS, and HTML. The focus was on creating a seamless, interactive experience across both desktop and mobile platforms, with a clean and dynamic user interface.
 
